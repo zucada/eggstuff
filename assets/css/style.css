@@ -55,3 +55,9 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 500px) {
+    .body {
+        overflow: hidden;
+    }
+}
