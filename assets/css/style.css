@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("/assets/images/bg-farm.jpg");
+}
+
+.egg {
+    width: 300px;
+    cursor: pointer;
+}
+
+.friedegg {
+    width: 400px;
+}
+
+.content {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hola {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-family: sans-serif;
+    position: absolute;
+}
+
+.adios {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-family: sans-serif;
+    position: absolute;
+    opacity: 1;
+}
+
+h1 {
+    bottom: 100px;
+    left: 550px;
+}
+
+.text-box {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
