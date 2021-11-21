@@ -4,7 +4,7 @@ const textBox = document.querySelector('.text-box')
 
 function brokenEgg() {
     document.querySelector('.egg').src = "assets/images/friedegg.png"
-    document.querySelector('.hola').innerHTML = "Ahora estoy muertito, gracias!"
+    document.querySelector('.hola').innerHTML = "Ahora estoy muertito, ¡gracias!"
     
 };
 
