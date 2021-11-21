@@ -6,6 +6,9 @@
 
 body {
     background-image: url("/assets/images/bg-farm.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
 }
 
 .egg {
